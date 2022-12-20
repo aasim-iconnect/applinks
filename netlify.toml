@@ -1,0 +1,22 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[redirects]]
+  from = "/*"
+  to = "index.html"
+  status = 200
+
+[[redirects]]
+  from = "/.well-known"
+  to = "well-known/assetlinks.json"
+  status = 200
+
+[[plugins]]
+  package = "netlify-plugin-cypress"
+
+  [plugins.inputs.postBuild]
+    enable = true
+
+  [plugins.inputs]
+    enable = false
