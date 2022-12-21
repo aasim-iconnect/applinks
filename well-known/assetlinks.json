@@ -2,8 +2,8 @@
     "applinks": {
         "apps": [],
         "details": [{
-            "appID": "<TeamID>.<BundleId>", 
-            "paths": ["/universal/*"] 
+            "appID": "WHUH75D7P6.com.consultant.squiggle", 
+            "paths": ["/universal/*","/auth", "/home"] 
             }
         ]
     }
